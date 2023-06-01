@@ -6,18 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Laravel</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/scripts.js"></script>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
-    <!-- Styles -->
-    <style>
-    </style>
 </head>
 
 <body>
     <h1>algum titulo</h1>
+    <img src="/img/banner.jpg" alt="banner">
     @if (10 > 5)
         <p>a condicao é true</p>
     @endif
