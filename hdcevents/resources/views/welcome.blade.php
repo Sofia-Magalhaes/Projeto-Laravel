@@ -24,10 +24,29 @@
     <p>{{ $nome }}</p>
 
     @if ($nome == 'Sofia')
-        <p>Seu nome é {{$nome}} e tem {{$idade}} anos</p>    
+        <p>Seu nome é {{ $nome }} e tem {{ $idade }} anos</p>
     @else
         <p>Seu nome não é Sofia</p>
     @endif
+
+    @for ($i = 0; $i < count($arr); $i++)
+        <p>{{ $arr[$i] }} - {{ $i }}</p>
+        @if ($i == 2)
+            <p>o i é igual a 2</p>
+        @endif
+    @endfor
+
+    @php
+        $name = 'soso';
+        echo $name;
+    @endphp
+    {{-- teste aqui --}}
+
+    @foreach ($nomes as $nome)
+        <p>{{ $loop->index }}</p>
+        <p>{{ $nome }}</p>
+    @endforeach
+
 </body>
 
 </html>
