@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('layouts.main')
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@section('title', 'HDC Events')
 
-    <title>Laravel</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <script src="/js/scripts.js"></script>
+@section('content')
 
-</head>
 
-<body>
     <h1>algum titulo</h1>
     <img src="/img/banner.jpg" alt="banner">
     @if (10 > 5)
@@ -43,6 +36,4 @@
         <p>{{ $nome }}</p>
     @endforeach
 
-</body>
-
-</html>
+@endsection
