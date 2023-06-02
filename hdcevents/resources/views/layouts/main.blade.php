@@ -27,7 +27,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="collapse navbar-collapse" id="navbar">
                 <a href="/" class="navbar-brand">
-                    <img src="/img/logoSol.svg" alt="Logo" class="src">
+                    <img src="/img/logoSol.svg" alt="Logo" class="navbar-brand">
                 </a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -43,9 +43,9 @@
                         <a href="/events/product" class="nav-link">Cadastrar</a>
                     </li>
                 </ul>
-
             </div>
         </nav>
+        
     </header>
     @yield('content')
     <footer>
