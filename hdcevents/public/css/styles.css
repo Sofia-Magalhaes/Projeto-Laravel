@@ -117,9 +117,13 @@
     margin-bottom: 30px;
   }
   
-  .card-participants {
+  .card-participants, {
     font-size: 14px;
     color: #757575;
+  }
+
+  .card-description{
+    font-size:15px;
   }
   
   /* Event create page */
@@ -183,6 +187,10 @@
 
   #items-list li{
     display:flex;
+  }
+
+  #description-container{
+    margin-top:30px;
   }
 
   
